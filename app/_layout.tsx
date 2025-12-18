@@ -19,7 +19,7 @@ export default function RootLayout() {
             <Stack.Screen
                 name="index"
                 options={{
-                    title: 'Wet My Plants 🌿',
+                    title: 'GoutaGoutte 🌿',
                     headerRight: () => (
                         <TouchableOpacity
                             onPress={() => router.push('/add-plant')}
