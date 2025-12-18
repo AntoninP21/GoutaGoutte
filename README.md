@@ -101,20 +101,4 @@ Pour publier sur les stores, suivez la documentation Expo EAS : https://docs.exp
 - `src/services/` : accès base de données et notifications
 - `assets/` : images et ressources
 
-## Tests
 
-Pas de suite de tests fournie actuellement. Suggestions : ajouter des tests unitaires avec `jest` et des tests d'intégration UI.
-
-## Contribution
-
-Contributions bienvenues : issues, PRs et suggestions. Suivre le workflow GitHub classique (fork → branch → PR).
-
----
-
-Si vous voulez, je peux :
-
-- ajouter des badges (build / license)
-- configurer CI pour EAS
-- rédiger un guide de contribution plus détaillé
-
-Bonne contribution !
