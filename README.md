@@ -109,12 +109,6 @@ Pas de suite de tests fournie actuellement. Suggestions : ajouter des tests unit
 
 Contributions bienvenues : issues, PRs et suggestions. Suivre le workflow GitHub classique (fork → branch → PR).
 
-## Licence
-
-Ce projet est sous licence MIT — voir le fichier [LICENSE](LICENSE). Remplacez le titulaire du copyright dans LICENSE si nécessaire.
-
-> Remarque: mettez à jour les URLs des badges en haut du fichier (`OWNER/REPO`) avec le chemin réel de votre dépôt GitHub après le premier push.
-
 ---
 
 Si vous voulez, je peux :
