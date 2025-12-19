@@ -51,6 +51,7 @@ export const scheduleDailyReminder = async () => {
             },
             // Trigger daily at 9am
             trigger: {
+                channelId: 'default',
                 hour: 9,
                 minute: 0,
                 repeats: true
@@ -89,7 +90,10 @@ export const schedulePlantWateringNotification = async (plant: Plant): Promise<s
                 body: `${plant.name} a besoin d'eau aujourd'hui !`,
                 sound: true,
             },
-            trigger: nextWateringDate as any,
+            trigger: {
+                channelId: 'default',
+                date: nextWateringDate,
+            } as any,
         });
 
         console.log(`Notification programmée pour ${plant.name} le ${nextWateringDate.toLocaleString()}`);
